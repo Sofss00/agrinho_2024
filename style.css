@@ -144,8 +144,9 @@ body {
 /* Estilização da descrição do produto */
 .product-info p {
     padding: 0 10px;
-    font-size: 1em;
-    color: #555;
+    font-size: 20px;
+    font-style: bold;
+    color: #0a0a0a;
 }
 
 /* Estilização do botão de detalhes */
@@ -175,26 +176,35 @@ body {
         left: 1%;
         font-style: bolder;
         font-size: 18px;
+        color: #f2f2f2;
     }
 
     .foot{
         top: 50%;
         font-size: 16px;
+        color: #f2f2f2;
     }
     
     .foot1{
         top: 120%;
         right: 88.5%;
         font-size: 16px;
+        color: #f2f2f2;
     }
 
     .suporte{
         left: 20%;
         top: 30%;
+        color: #f2f2f2;
     }
 
     .atendimento{
         left: 40%;
         bottom: 10%;
+        color: #f2f2f2;
+    }
+
+    .copy{
+        color: #f2f2f2;
     }
 }
