@@ -103,6 +103,7 @@ body {
         position: absolute;
         left: 30%;
         top: 12%;
+        z-index: 70px;
     }
 
     .input {
@@ -117,6 +118,7 @@ body {
         box-shadow: 0 0 10% rgba(0, 0, 0, 0.1);
         transition: all 0.3s ease-in-out;
         margin-left: 40px;
+        z-index: 110px;
     }
 
     .botao {
