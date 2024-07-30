@@ -381,3 +381,198 @@ body {
         bottom: 60%;
     }
 }
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroShop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(255, 194, 137);">
+    <script src="script.js"></script>
+
+    <header style="background-color: rgb(212, 124, 41);">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="logo_agroShop" height="250px" width="250px">
+            </a>
+        </div>
+
+        <div class="agro">
+            <p>Agro</p>
+        </div>
+        <div class="shop">
+            <p>Shop</p>
+        </div>
+
+        <div class="folha_img">
+            <img src="img/folha.png" alt="folha decorativa" class="folha" width="44.5px" height="45px">
+        </div>
+
+        <div class="search_bar">
+            <input type="text" id="search-input" placeholder="Buscar produtos..." class="input">
+            <button onclick="searchProducts()" class="botao">
+                <img src="img/loupe.png" alt="Pesquisar" width="60px" height="60px" class="button_img">
+            </button>
+        </div>
+
+        <div class="user_actions">
+            <button onclick="window.location.href='register.html'" class="conta">
+                <img src="img/conta.png" alt="Criar conta" class="img_conta" height="60px" width="60px">
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="product-grid" id="product-grid">
+            <!-- Produtos serão inseridos aqui -->
+            <div class="product-card" data-name="Saca de soja Orgânica">
+                <div class="product-info">
+                    <img src="img/soja_1.jpg" alt="soja">
+                    <h3>Saca de Soja Orgânica</h3>
+                    <p>R$ 138,35</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-name="Saca de Milho Orgânico">
+                <div class="product-info">
+                    <img src="img/milho_1.jpg" alt="milho">
+                    <h3>Saca de Milho Orgânico</h3>
+                    <p>R$ 58,81</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-name="Cana de açucar organica quilo kg">
+                <div class="product-info">
+                    <img src="img/cana_1.jpeg" alt="cana-de-açucar">
+                    <h3>Cana-de-Açúcar (tonelada)</h3>
+                    <p>R$ 171,60</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-name="cacau orgânico kg quilo kilo ">
+                <div class="product-info">
+                    <img src="img/cacau.jpg" alt="cacau">
+                    <h3>Cacau Orgânico (quilo) </h3>
+                    <p>R$ 55,00</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-name="Gengibre Orgânico quilo kg kilo">
+                <div class="product-info">
+                    <img src="img/gengibre.jpeg" alt="gengibre">
+                    <h3>Gengibre (quilo)</h3>
+                    <p>R$ 16,99</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-name="guaraná amazônia amazônico quilo kg kilo">
+                <div class="product-info">
+                    <img src="img/guarana.jpg" alt="guaraná">
+                    <h3>Guaraná (quilo)</h3>
+                    <p>R$ 11,00</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-name="saca de milho 60 kg quilos kilos">
+                <div class="product-info">
+                    <img src="img/milho.jpg" alt="milho">
+                    <h3>Saca de Milho</h3>
+                    <p>R$ 70,00</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-name="cacau orgânico kg quilo kilo">
+                <div class="product-info">
+                    <img src="img/cacau_2.jpg" alt="cacau">
+                    <h3>Cacau (quilo)</h3>
+                    <p>R$ 52,00</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-name="Saca de soja Orgânica">
+                <div class="product-info">
+                    <img src="img/soja_2.jpg" alt="soja">
+                    <h3>Saca de Soja</h3>
+                    <p>R$ 130,87</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-name="tonelada cana de açucar organica">
+                <div class="product-info">
+                    <img src="img/cana.jpg" alt="cana-de-açucar">
+                    <h3>Cana-de-Açúcar</h3>
+                    <p>R$ 182,54</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-name="milho de tipos variados especies diferentes kilo kg quilo">
+                <div class="product-info">
+                    <img src="img/milhos_diferentes.jpg" alt="diferentes tipos de milhos">
+                    <h3>Milho Espécies (kg)</h3>
+                    <p>R$ 52,65 à R$ 90,85</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-name="trigo Orgânico kg quilo kilo grão">
+                <div class="product-info">
+                    <img src="img/trigo.jpg" alt="trigo">
+                    <h3>Trigo Orgânico (kg)</h3>
+                    <p>R$ 76,00</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-name="tomate cereja quilo kg kilo orgânico">
+                <div class="product-info">
+                    <img src="img/tomate_cereja.jpg" alt="tomate cereja">
+                    <h3>Tomate-Cereja (quilo)</h3>
+                    <p>R$ 7,90</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-name="tomate orgânico kg kilo quilo ">
+                <div class="product-info">
+                    <img src="img/tomate_organico.jpeg" alt="tomate">
+                    <h3>Tomate Orgânico (kg)</h3>
+                    <p>R$ 5,00</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+
+            <div class="product-card" data-name="trigo Orgânico kg quilo kilo grão">
+                <div class="product-info">
+                    <img src="img/trigo_1.png" alt="trigo">
+                    <h3>Trigo Quilo</h3>
+                    <p>R$ 80,00</p>
+                    <button>Ver Detalhes</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+    <footer style="background-color: rgb(212, 124, 41);">
+        <div class="footer">
+            <h4 class="informacoes">Informações do Projeto</h4>
+              <p class="foot">O Projeto foi realizado pela <br> aluna Sofia Guaita, do 2°B.</p>
+              <p class="foot1">O "AgroShop" tem o obejtivo <br> de ligar o campo à cidade <br> facilitando aos agricultores a <br> comercialização de seus produtos.</p>
+            <h4 class="suporte">Ajuda e Suporte</h4>
+            <h4 class="atendimento">Atendimento ao Cliente</h4>
+            <p class="copy">&copy; 2024 AgroShop. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</html>
