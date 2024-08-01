@@ -67,50 +67,52 @@ body {
 }
 
 
-@media (min-width: 1200px) {
     /* Ajustes para tela grande */
+@media (min-width: 1110px) and (max-width: 1200px) {
     .logo img {
         border-radius: 10px; 
         margin-left: 5px; 
         margin-top: 5px; 
         margin-bottom: 2px;
+        height: 170px;
+        width: 170px;
     }
 
     .agro, .shop {
-        font-size: 50px;
+        font-size: 55px;
         font-family: 'Times New Roman', Times, serif;
         color: #f2f2f2;
         position: absolute;
+        margin-left: 10px;
     }
 
     .agro {
         left: 15.2%;
-        bottom: 78%;
+        bottom: 84%;
     }
 
     .shop {
         left: 17.4%;
-        bottom: 68%;
+        bottom: 76%;
     }
 
     .folha_img{
         position: absolute;
-        left: 455px;
-        bottom: 810px;
+        left: 300px;
+        bottom: 760px;
     }
 
     .search_bar {
         position: absolute;
         left: 30%;
         top: 12%;
-        z-index: 70px;
     }
 
     .input {
         padding: 15px;
         border: none;
         border-radius: 50px;
-        width: 200%;
+        width: 115%;
         height: 15px;
         background-color: #f2f2f2;
         font-size: 18px;
@@ -118,7 +120,8 @@ body {
         box-shadow: 0 0 10% rgba(0, 0, 0, 0.1);
         transition: all 0.3s ease-in-out;
         margin-left: 40px;
-        z-index: 110px;
+        position: relative;
+        bottom: 30px;
     }
 
     .botao {
@@ -129,15 +132,15 @@ body {
         background-color: rgb(212, 124, 41);
         cursor: pointer;
         position: relative;
-        left: 220%;
-        bottom: 65px;
+        left: 140%;
+        bottom: 95px;
     }
 
     .button_img {
         height: 100px;
         width: 100px;
         position: absolute;
-        right: 2px;
+        right: 25px;
         bottom: 7px;
     }
 
@@ -145,7 +148,7 @@ body {
         height: 90px;
         width: 90px;
         position: absolute;
-        left: 94.5%;
+        left: 92%;
         bottom: 89%;
         border: none;
         border-radius: 50px;
@@ -160,6 +163,62 @@ body {
         bottom: 22%;
         left: 20%;
         cursor: pointer;
+    }
+
+    .product-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        padding: 20px;
+    }
+    
+    .product-card {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 300px;
+        text-align: center;
+        transition: transform 0.2s;
+        margin: 20px;
+    }
+    
+    .product-card:hover {
+        transform: scale(1.05);
+    }
+    
+    .product-info img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .product-info h3 {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+    
+    .product-info p {
+        padding: 0 10px;
+        font-size: 20px;
+        font-style: bold;
+        color: #0a0a0a;
+    }
+    
+    .product-info button {
+        margin: 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(212, 124, 41);
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .product-info button:hover {
+        background-color: rgb(180, 90, 20);
     }
 
     .footer{
@@ -180,11 +239,118 @@ body {
     .suporte{
         position: relative;
         left: 30%;
+        bottom: 175px;
     }
 
     .atendimento{
         position: relative;
         left: 58%;
-        bottom: 60%;
+        bottom: 215px;
     }
+
+    .copy{
+        margin-left: 820px;
+    }
+
+}
+
+@media (max-width: 1109px) {
+
+    .logo img {
+        border-radius: 10px; 
+        margin-left: 5px; 
+        margin-top: 5px; 
+        margin-bottom: 2px;
+        height: 120px;
+        width: 120px;
+    }
+
+    .agro, .shop {
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #f2f2f2;
+        position: absolute;
+        margin-left: 10px;
+    }
+
+    .agro {
+        left: 12%;
+        bottom: 89.5%;
+    }
+
+    .shop {
+        left: 13.7%;
+        bottom: 84.5%;
+    }
+
+    .folha_img{
+        position: absolute;
+        left: 210px;
+        bottom: 785px;
+
+    }
+
+    .search_bar {
+        position: absolute;
+        left: 30%;
+        top: 12%;
+    }
+
+    .input {
+        padding: 8px;
+        border: none;
+        border-radius: 50px;
+        width: 105%;
+        height: 8px;
+        background-color: #f2f2f2;
+        font-size: 10px;
+        font-family: Arial, sans-serif;
+        box-shadow: 0 0 10% rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+        position: relative;
+        bottom: 50px;
+        right: 45px;
+    }
+
+    .botao {
+        height: 50pxpx;
+        border: none;
+        border-radius: 80px;
+        width: 50px;
+        background-color: rgb(212, 124, 41);
+        cursor: pointer;
+        position: relative;
+        left: 100%;
+        bottom: 40px;
+    }
+
+    .button_img {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        right: 25px;
+        bottom: 12px;
+    }
+
+    .conta {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 53%;
+        bottom: 95%;
+        border: none;
+        border-radius: 50px;
+        background-color: rgb(212, 124, 41);
+        cursor: pointer;
+    }
+
+    .img_conta {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        cursor: pointer;
+    }
+
 }
