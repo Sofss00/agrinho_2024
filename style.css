@@ -68,7 +68,7 @@ body {
 
 
     /* Ajustes para tela grande */
-@media (min-width: 1110px) and (max-width: 1200px) {
+@media (min-width: 1110px) and (max-width: 1920px) {
     .logo img {
         border-radius: 10px; 
         margin-left: 5px; 
