@@ -86,22 +86,6 @@ body {
         margin-left: 10px;
     }
 
-    .agro {
-        left: 15.2%;
-        bottom: 84%;
-    }
-
-    .shop {
-        left: 17.4%;
-        bottom: 76%;
-    }
-
-    .folha_img{
-        position: absolute;
-        left: 300px;
-        bottom: 760px;
-    }
-
     .search_bar {
         position: absolute;
         left: 30%;
@@ -263,31 +247,6 @@ body {
         margin-bottom: 2px;
         height: 120px;
         width: 120px;
-    }
-
-    .agro, .shop {
-        font-size: 35px;
-        font-family: 'Times New Roman', Times, serif;
-        color: #f2f2f2;
-        position: absolute;
-        margin-left: 10px;
-    }
-
-    .agro {
-        left: 12%;
-        bottom: 89.5%;
-    }
-
-    .shop {
-        left: 13.7%;
-        bottom: 84.5%;
-    }
-
-    .folha_img{
-        position: absolute;
-        left: 210px;
-        bottom: 785px;
-
     }
 
     .search_bar {
