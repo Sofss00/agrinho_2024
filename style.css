@@ -314,3 +314,79 @@ body {
     }
 
 }
+
+@media (max-width: 768px) {
+    .logo img {
+        border-radius: 10px; 
+        margin-left: 5px; 
+        margin-top: 5px; 
+        margin-bottom: 2px;
+        height: 170px;
+        width: 170px;
+    }
+
+    .search_bar {
+        display: block;
+        position: absolute;
+        left: 30%;
+        top: 12%;
+    }
+
+    .input {
+        padding: 8px;
+        border: none;
+        border-radius: 50px;
+        width: 105%;
+        height: 8px;
+        background-color: #f2f2f2;
+        font-size: 10px;
+        font-family: Arial, sans-serif;
+        box-shadow: 0 0 10% rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+        position: relative;
+        bottom: 50px;
+        right: 45px;
+    }
+
+    .botao {
+        height: 50pxpx;
+        border: none;
+        border-radius: 80px;
+        width: 50px;
+        background-color: rgb(212, 124, 41);
+        cursor: pointer;
+        position: relative;
+        left: 100%;
+        bottom: 40px;
+    }
+
+    .button_img {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        right: 25px;
+        bottom: 12px;
+    }
+
+    .conta {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        left: 53%;
+        bottom: 95%;
+        border: none;
+        border-radius: 50px;
+        background-color: rgb(212, 124, 41);
+        cursor: pointer;
+    }
+
+    .img_conta {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
+        cursor: pointer;
+    }
+
+}
