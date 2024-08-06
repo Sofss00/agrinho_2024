@@ -1,16 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="conta.css">
-    <title>AgroShop</title>
+    <title>Registro</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <header>
-        
-    </header>
-    
+    <div class="container">
+        <h1>Criar Conta</h1>
+        <form id="registerForm">
+            <label for="newUsername">Usuário:</label>
+            <input type="text" id="newUsername" name="username" required>
+            <label for="newPassword">Senha:</label>
+            <input type="password" id="newPassword" name="password" required>
+            <button type="submit">Registrar</button>
+        </form>
+        <p>Já tem uma conta? <a href="login.html">Fazer Login</a></p>
+    </div>
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // Simulação de registro bem-sucedido
+            window.location.href = 'index.html'; // Redireciona para a página de boas-vindas
+        });
+    </script>
 </body>
 </html>
