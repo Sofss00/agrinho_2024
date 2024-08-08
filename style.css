@@ -231,7 +231,7 @@ body {
         top: 10px;
     }
 
-    .foot, .foot2{
+    .foot, .foot1, .foot2{
         margin-left: 10px;
         margin-top: 15px;
     }
@@ -368,7 +368,7 @@ body {
         top: 10px;
     }
 
-    .foot, .foot2{
+    .foot, .foot1, .foot2{
         margin-left: 10px;
         margin-top: 15px;
     }
@@ -519,7 +519,7 @@ body {
         top: 45px;
     }
 
-    .foot, .foot2{
+    .foot, .foot1, .foot2{
         position: relative;
         top: 40px;
         margin-left: 10px;
@@ -669,7 +669,7 @@ body {
         top: 45px;
     }
 
-    .foot, .foot2{
+    .foot, .foot1, .foot2{
         position: relative;
         top: 40px;
         margin-left: 10px;
@@ -699,7 +699,3 @@ body {
 }
 
 }
-
-
-
-
