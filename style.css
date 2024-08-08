@@ -231,9 +231,13 @@ body {
         top: 10px;
     }
 
-    .foot, .foot1{
+    .foot, .foot1, .foot2{
         margin-left: 10px;
         margin-top: 15px;
+    }
+
+    .foot2{
+        color: aliceblue;
     }
 
     .suporte{
@@ -334,24 +338,24 @@ body {
     }
 
     .product-card {
-        width: 300px; /* Largura padrão para telas grandes */
+        width: 300px;
         margin: 20px;
     }
 
     .product-info img {
-        height: 150px; /* Altura padrão das imagens */
+        height: 150px; 
     }
 
     .product-info h3 {
-        font-size: 1.5em; /* Tamanho da fonte do título */
+        font-size: 1.5em; 
     }
 
     .product-info p {
-        font-size: 20px; /* Tamanho da fonte da descrição */
+        font-size: 20px; 
     }
 
     .product-info button {
-        padding: 10px 20px; /* Padding dos botões */
+        padding: 10px 20px; 
     }
 
     .footer{
@@ -364,9 +368,13 @@ body {
         top: 10px;
     }
 
-    .foot, .foot1{
+    .foot, .foot1, .foot2{
         margin-left: 10px;
         margin-top: 15px;
+    }
+
+    .foot2{
+        color: aliceblue;
     }
 
     .suporte{
