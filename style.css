@@ -240,20 +240,34 @@ body {
         color: aliceblue;
     }
 
+
     .suporte{
         position: relative;
         left: 30%;
-        bottom: 175px;
+        bottom: 225px;
+    }
+
+    .foot3{
+        color: aliceblue;
+        position: relative;
+        margin-left: 410px;
+        bottom: 235px;
     }
 
     .atendimento{
         position: relative;
         left: 58%;
-        bottom: 215px;
+        bottom: 305px;
+    }
+
+    .foot4{
+        position: relative;
+        left: 795px;
+        bottom: 320px;
     }
 
     .copy{
-        margin-left: 820px;
+        margin-left: 960px;
     }
 
 }
@@ -380,17 +394,29 @@ body {
     .suporte{
         position: relative;
         left: 30%;
-        bottom: 175px;
+        bottom: 260px;
+    }
+    .foot3{
+        color: aliceblue;
+        position: relative;
+        margin-left: 330px;
+        bottom: 275px;
     }
 
     .atendimento{
         position: relative;
         left: 58%;
-        bottom: 215px;
+        bottom: 348px;
+    }
+
+    .foot4{
+        position: relative;
+        left: 645px;
+        bottom: 365px;
     }
 
     .copy{
-        margin-left: 820px;
+        margin-left: 720px;
     }
 
     
@@ -516,12 +542,12 @@ body {
     .informacoes{
         margin-left: 10px;
         position: relative;
-        top: 45px;
+        top: 15px;
     }
 
     .foot, .foot1, .foot2{
         position: relative;
-        top: 40px;
+        top: 10px;
         margin-left: 10px;
         margin-top: 15px;
     }
@@ -533,13 +559,26 @@ body {
     .suporte{
         position: relative;
         left: 27%;
-        bottom: 175px;
+        bottom: 220px;
+    }
+
+    .foot3{
+        color: aliceblue;
+        position: relative;
+        margin-left: 300px;
+        bottom: 225px;
     }
 
     .atendimento{
         position: relative;
-        left: 48%;
-        bottom: 215px;
+        left: 49%;
+        bottom: 305px;
+    }
+
+    .foot4{
+        position: relative;
+        left: 545px;
+        bottom: 305px;
     }
 
     .copy{
@@ -682,18 +721,31 @@ body {
 
     .suporte{
         position: relative;
-        left: 30%;
-        bottom: 175px;
+        left: 33%;
+        bottom: 190px;
+    }
+
+    .foot3{
+        color: aliceblue;
+        position: relative;
+        margin-left: 250px;
+        bottom: 200px;
     }
 
     .atendimento{
         position: relative;
-        left: 58%;
-        bottom: 215px;
+        left: 60%;
+        bottom: 275px;
+    }
+
+    .foot4{
+        position: relative;
+        left: 465px;
+        bottom: 280px;
     }
 
     .copy{
-        margin-left: 189px;
+        margin-left: 400px;
     }
 
 }
